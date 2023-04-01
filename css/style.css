@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.full-width{
+    width: 100%;
+}
+
+#my-navigation{
+    display:block;
+   padding:10px;
+    
+}
+
+#my-navigation .newone{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #fff;
+}
+#my-navigation ul li{
+    font-size: 18px;
+    margin-top: 15px;
+    text-decoration: underline;
+
+}
+#my-navigation ul li a{
+   columns: #fff;
+
+}
+#my-navigation ul li:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    transition-duration: 1s;
+    text-decoration-style: solid;
+
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ben{
+    width: 40%;
+}
+.ben img{
+    width: 100%;
+}
+
+.ben-button{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.style-button1{
+    font-size: 30px;
+    padding: 15px 50px;
+    border-radius:30px ;
+    background-color: black;
+    color: #fff;
+}
+.style-button2{
+    font-size: 30px;
+    padding: 12px 20px;
+    border-radius:30px ;
+    background-color: orange;
+    color: #fff;
+}
+.style-button2:hover{
+    
+    background-color: black;
+    color:#fff;
+    transition-duration: 1s;
+
+}
+
+/*about starts here*/
+
+.legend{
+    padding: 60px 0;
+}
+.second{
+    width: 60%;
+    
+}
+.second h2{
+    font-size: 38px;
+    margin-top: 0;
+}
+.second h5{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+    word-spacing: 4px;
+    color: gray;
+}
+.second p{
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 4px;
+    color: gray;
+    margin-top: 10px;
+}
+.second-two{
+    width: 40%;
+}
+
+.second-two img{
+   width: 90%;
+   border-radius: 20px;
+}
+
+.todo {
+     font-size: 20px;
+     list-style-type: none;
+     padding-left: 0;
+     margin-top:35px;
+
+}
+.todo li{
+   font-size: 17px;
+}
+
+.three-section{
+    margin-top: 40px;
+}
+.three-section h2{
+    font-size: 35px;
+}
+
+.three-section p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 25px;
+    line-height: 30px;
+
+}
+/*about ends here*/
+
+/*full-width starts here*/
+.full-review{
+    width: 100%;
+    background-color: rgb(237, 230, 230);
+}
+.full{
+    padding-top:40px;
+    width: 100%;
+    padding-bottom: 80px;
+    
+}
+.testimonial{
+    width: 33%;
+}
+
+.test-img{
+    width: 40%;
+}
+
+ .test-img img{
+    width: 80%;
+    border-radius:100%;
+ }
+
+ .test-para{
+    width: 60%;
+
+ }
+ .test-para p{
+    font-size:20px;
+    line-height: 35px;
+    color: gray;
+ }
+ .test-para h6{
+  font-size: 20px;
+  line-height: 30px;
+ }
+
+ .text-center{
+    margin-top: 70px;
+    margin-bottom: 0;
+ }
+
+/*full-width ends here*/
+
+
+
+/* second-last starts here*/
+
+.second-last{
+    padding: 70px 0;
+}
+.second-last .add{
+    width: 50%;
+}
+.padd{
+    padding: 10px 70px;
+}
+
+.hello h1{
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+.hello p{
+    font-size: 20px;
+    color: gray;
+}
+
+.hello span{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right:20px;
+    color: gray;
+
+}
+.hello h4{
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+/* second-last ends here */
+ 
+
+@media only screen and (max-width:550px){
+   #my-navigation .newone{
+     font-size: 25px;
+   }
+   
+
+    #my-navigation ul li{
+       float: left;
+       margin-top: 0px;
+    }
+    .two-section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .two-section .ben{
+        width: 90%;
+        text-align: center;
+    }
+    .two-section .ben-button {
+        width: 100%;
+        margin: 40px 0;
+    }
+     
+    .second {
+        width: 100%;
+        text-align: justify;
+    }
+    .second h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .second h5{
+        font-size: 16px;
+    }
+    .second ul li{
+        font-size: 15px;
+    }
+    .second ul {
+        text-align: center;
+        margin: 15px 0;
+        line-height: 25px;
+    }
+    .second-two{
+        width: 100%;
+        text-align: center;
+    }
+    .second-two img{
+        width: 80%;
+        
+
+    }
+
+    .three-section h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    .three-section p{
+        font-size: 17px;
+    }
+
+    .testimonial{
+       width: 100%;
+       margin-bottom: 20px;
+    }
+    .testimonial p{
+        font-size: 18px;
+    }
+    .testimonial h6{
+        font-size: 18px;
+    }
+    .hello{
+        width: 100%;
+        text-align: center;
+    }
+    .hello h1{
+        font-size: 24px;
+    }
+
+    .second-last .hello h4{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:850px)and (min-width:555px){
+    #my-navigation .newone {
+        font-size: 30px;
+    }
+    #my-navigation ul li{
+        display: flex;
+        float: left;
+        margin-top: 0;
+    }
+     .second {
+        width: 100%;
+     }
+    .second h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .second h5{
+        font-size: 20px;
+    }
+    .second ul li{
+        text-align: center;
+    }
+
+    .three-section h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .three-section p{
+        font-size: 18px;
+    }
+
+    .second-two {
+        width: 100%;
+        text-align: center;
+    }
+    .second-two img{
+        width: 75%;
+    }
+
+    .full-review .text-center{
+        text-align: center;
+    }
+    .testimonial {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .test-img{
+        width: 40%;
+    }
+    .testimonial .test-img img{
+        width: 80%;
+    }
+    .test-para  {
+        margin-top: 30px;
+    }
+}
+
+
+
+@media only screen and (min-width:850px)and (max-width:1200px){
+    .second{
+        width: 50%;
+    }
+    .legend .second h2{
+        font-size: 30px;
+    }
+    .second h5{
+        font-size: 18px;
+    }
+    .second-two{
+        width: 50%;
+    }
+    .second-two img{
+        width: 90%;
+    }
+    .three-section {
+    }
+    .todo{
+        margin-top: 10px;
+    }
+    .second ul li{
+        font-size: 15px;
+    }
+    .three-section h2{
+        font-size: 30px;
+        
+    }
+    .three-section p{
+        font-size: 17px;
+    }
+
+    
+    .testimonial h2{
+        font-size:19px;
+    }
+    .testimonial p{
+        font-size: 17px;
+    }
+    .hello h1{
+     font-size: 30px;
+    }
+}
+
+
