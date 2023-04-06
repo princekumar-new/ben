@@ -31,7 +31,7 @@ body{
 
 }
 #my-navigation ul li a{
-   columns: #fff;
+   color: #fff;
 
 }
 #my-navigation ul li:hover{
@@ -419,6 +419,11 @@ body{
     }
     .hello h1{
      font-size: 30px;
+    }
+}
+@media only screen and (min-width:551px) and(max-width:1415px){
+    .collapse {
+        display: block;
     }
 }
 
